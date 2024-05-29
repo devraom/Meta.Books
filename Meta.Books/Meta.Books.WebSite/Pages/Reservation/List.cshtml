@@ -1,0 +1,49 @@
+@page
+@model Meta.Books.WebSite.Pages.Reservation.ListModel
+
+<div class="container-fluid">
+    <form method="get">
+        <div class="row mb-3">
+            <div class="col-md-8"></div>
+            <div class="col-md-4 text-end">
+                <button id="btnSearch" class="btn btn-primary me-3">Search</button>
+                <a asp-page="/Reservation/Adm" asp-route-id="0" class="btn btn-success">Add New</a>
+            </div>
+        </div>
+    </form>
+
+    <div class="row mb-3">
+        <div class="col-md-12">
+            <h2>Reservations</h2>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-12">
+            <table class="table">
+                <thead>
+                <tr>
+                    <th>Book</th>
+                    <th>User</th>
+                    <th>Reservation Date</th>
+                    <th>Actions</th>
+                </tr>
+                </thead>
+                <tbody>
+                @foreach (var reservation in Model.Reservations)
+                {
+                    <tr>
+                        <td>@Model.Books[reservation.book_id]</td>
+                        <td>@Model.Users[reservation.user_id]</td>
+                        <td>@reservation.reservation_date.ToString("yyyy-MM-dd")</td>
+                        <td>
+                            <a asp-area="" asp-page="/Reservation/Adm" asp-route-id="@reservation.id" class="btn btn-primary" role="button">Edit</a>
+                            <a asp-area="" asp-page="/Reservation/Delete" asp-route-id="@reservation.id" class="btn btn-danger" role="button">Delete</a>
+                        </td>
+                    </tr>
+                }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>

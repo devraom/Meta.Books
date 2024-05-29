@@ -1,0 +1,50 @@
+@page "{id:int}"
+@model Meta.Books.WebSite.Pages.User.Adm
+
+<div class="container">
+    <h1>@(Model.UserDto.id > 0 ? "Edit User" : "Add New User")</h1>
+    <hr />
+
+    <div class="row">
+        <div class="col-md-6">
+            <form method="post">
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+                <div class="form-group">
+                    <label asp-for="UserDto.name" class="control-label">Name</label>
+                    <input asp-for="UserDto.name" class="form-control" />
+                    <span asp-validation-for="UserDto.name" class="text-danger"></span>
+                </div>
+
+                <div class="form-group">
+                    <label asp-for="UserDto.email" class="control-label">Email</label>
+                    <input asp-for="UserDto.email" class="form-control" />
+                    <span asp-validation-for="UserDto.email" class="text-danger"></span>
+                </div>
+
+                <div class="form-group">
+                    <label asp-for="UserDto.password" class="control-label">Password</label>
+                    <input asp-for="UserDto.password" type="password" class="form-control" />
+                    <span asp-validation-for="UserDto.password" class="text-danger"></span>
+                </div>
+
+                @if (Model.Errors.Count > 0)
+                {
+                    <div class="alert alert-danger">
+                        <ul>
+                            @foreach (var error in Model.Errors)
+                            {
+                                <li>@error</li>
+                            }
+                        </ul>
+                    </div>
+                }
+
+                <div class="text-right">
+                    <button type="submit" class="btn btn-primary">@(Model.UserDto.id > 0 ? "Update" : "Save")</button>
+                    <a asp-page="./List" class="btn btn-secondary">Cancel</a>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

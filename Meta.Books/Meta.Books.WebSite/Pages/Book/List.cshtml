@@ -1,0 +1,51 @@
+@page
+@model Meta.Books.WebSite.Pages.Book.ListModel
+
+<div class="container-fluid">
+    <form method="get">
+        <div class="row mb-3">
+            <div class="col-md-8"></div>
+            <div class="col-md-4 text-end">
+                <button id="btnSearch" class="btn btn-primary me-3">Search</button>
+                <a asp-page="/Book/Adm" asp-route-id="0" class="btn btn-success">Add New</a>
+            </div>
+        </div>
+    </form>
+
+    <div class="row mb-3">
+        <div class="col-md-12">
+            <h2>Books</h2>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-12">
+            <table class="table">
+                <thead>
+                <tr>
+                    <th>Title</th>
+                    <th>Author</th>
+                    <th>Category</th>
+                    <th>Publisher</th>
+                    <th>Actions</th>
+                </tr>
+                </thead>
+                <tbody>
+                @foreach (var book in Model.Books)
+                {
+                    <tr>
+                        <td>@book.title</td>
+                        <td>@Model.Authors[book.author_id]</td>
+                        <td>@Model.Categories[book.category_id]</td>
+                        <td>@Model.Publishers[book.publisher_id]</td>
+                        <td>
+                            <a asp-area="" asp-page="/Book/Adm" asp-route-id="@book.id" class="btn btn-primary" role="button">Edit</a>
+                            <a asp-area="" asp-page="/Book/Delete" asp-route-id="@book.id" class="btn btn-danger" role="button">Delete</a>
+                        </td>
+                    </tr>
+                }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,11 @@
+C:\Users\Ramses\Desktop\Meta.Books.WebApp\Meta.Books\Meta.Books.Core\bin\Debug\net7.0\Meta.Books.Core.deps.json
+C:\Users\Ramses\Desktop\Meta.Books.WebApp\Meta.Books\Meta.Books.Core\bin\Debug\net7.0\Meta.Books.Core.dll
+C:\Users\Ramses\Desktop\Meta.Books.WebApp\Meta.Books\Meta.Books.Core\bin\Debug\net7.0\Meta.Books.Core.pdb
+C:\Users\Ramses\Desktop\Meta.Books.WebApp\Meta.Books\Meta.Books.Core\obj\Debug\net7.0\Meta.Books.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ramses\Desktop\Meta.Books.WebApp\Meta.Books\Meta.Books.Core\obj\Debug\net7.0\Meta.Books.Core.AssemblyInfoInputs.cache
+C:\Users\Ramses\Desktop\Meta.Books.WebApp\Meta.Books\Meta.Books.Core\obj\Debug\net7.0\Meta.Books.Core.AssemblyInfo.cs
+C:\Users\Ramses\Desktop\Meta.Books.WebApp\Meta.Books\Meta.Books.Core\obj\Debug\net7.0\Meta.Books.Core.csproj.CoreCompileInputs.cache
+C:\Users\Ramses\Desktop\Meta.Books.WebApp\Meta.Books\Meta.Books.Core\obj\Debug\net7.0\Meta.Books.Core.dll
+C:\Users\Ramses\Desktop\Meta.Books.WebApp\Meta.Books\Meta.Books.Core\obj\Debug\net7.0\refint\Meta.Books.Core.dll
+C:\Users\Ramses\Desktop\Meta.Books.WebApp\Meta.Books\Meta.Books.Core\obj\Debug\net7.0\Meta.Books.Core.pdb
+C:\Users\Ramses\Desktop\Meta.Books.WebApp\Meta.Books\Meta.Books.Core\obj\Debug\net7.0\ref\Meta.Books.Core.dll

@@ -1,0 +1,44 @@
+@page
+@model Meta.Books.WebSite.Pages.User.Login
+@{
+    ViewData["Title"] = "Login";
+}
+
+<div class="container d-flex justify-content-center align-items-center min-vh-100">
+    <div class="col-md-6">
+        <div class="card shadow-lg">
+            <div class="card-body">
+                <h2 class="card-title text-center mb-4">Login</h2>
+                <form method="post">
+                    <div class="form-group mb-3">
+                        <label asp-for="LoginDto.email" class="form-label">Email</label>
+                        <input asp-for="LoginDto.email" class="form-control" maxlength="45"/>
+                        <span class="text-danger" asp-validation-for="LoginDto.email"></span>
+                    </div>
+
+                    <div class="form-group mb-3">
+                        <label asp-for="LoginDto.password" class="form-label">Password</label>
+                        <input asp-for="LoginDto.password" class="form-control" maxlength="100" type="password"/>
+                        <span class="text-danger" asp-validation-for="LoginDto.password"></span>
+                    </div>
+                    
+                    @if (Model.Errors.Count > 0)
+                    {
+                        <div class="alert alert-danger" role="alert">
+                            <ul>
+                                @foreach (var error in Model.Errors)
+                                {
+                                    <li>@error</li>
+                                }
+                            </ul>
+                        </div>
+                    }
+
+                    <div class="d-grid">
+                        <button type="submit" class="btn btn-primary btn-block">Login</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>

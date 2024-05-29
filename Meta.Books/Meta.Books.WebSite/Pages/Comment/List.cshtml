@@ -1,0 +1,49 @@
+@page
+@model Meta.Books.WebSite.Pages.Comment.ListModel
+
+<div class="container-fluid">
+    <form method="get">
+        <div class="row mb-3">
+            <div class="col-md-8"></div>
+            <div class="col-md-4 text-end">
+                <button id="btnSearch" class="btn btn-primary me-3">Search</button>
+                <a asp-page="/Comment/Adm" asp-route-id="0" class="btn btn-success">Add New</a>
+            </div>
+        </div>
+    </form>
+
+    <div class="row mb-3">
+        <div class="col-md-12">
+            <h2>Comments</h2>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-12">
+            <table class="table">
+                <thead>
+                <tr>
+                    <th>Book</th>
+                    <th>User</th>
+                    <th>Comment</th>
+                    <th>Actions</th>
+                </tr>
+                </thead>
+                <tbody>
+                @foreach (var comment in Model.Comments)
+                {
+                    <tr>
+                        <td>@Model.Books[comment.book_id]</td>
+                        <td>@Model.Users[comment.user_id]</td>
+                        <td>@comment.comment</td>
+                        <td>
+                            <a asp-area="" asp-page="/Comment/Adm" asp-route-id="@comment.id" class="btn btn-primary" role="button">Edit</a>
+                            <a asp-area="" asp-page="/Comment/Delete" asp-route-id="@comment.id" class="btn btn-danger" role="button">Delete</a>
+                        </td>
+                    </tr>
+                }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>

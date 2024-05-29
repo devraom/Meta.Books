@@ -1,0 +1,147 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Meta.Books.WebSite
+build_property.RootNamespace = Meta.Books.WebSite
+build_property.ProjectDir = C:\Users\Ramses\Desktop\Meta.Books.WebApp\Meta.Books\Meta.Books.WebSite\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\Ramses\Desktop\Meta.Books.WebApp\Meta.Books\Meta.Books.WebSite
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/Ramses/Desktop/Meta.Books.WebApp/Meta.Books/Meta.Books.WebSite/Pages/Author/Adm.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQXV0aG9yXEFkbS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ramses/Desktop/Meta.Books.WebApp/Meta.Books/Meta.Books.WebSite/Pages/Author/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQXV0aG9yXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ramses/Desktop/Meta.Books.WebApp/Meta.Books/Meta.Books.WebSite/Pages/Author/List.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQXV0aG9yXExpc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ramses/Desktop/Meta.Books.WebApp/Meta.Books/Meta.Books.WebSite/Pages/Book/Adm.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQm9va1xBZG0uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ramses/Desktop/Meta.Books.WebApp/Meta.Books/Meta.Books.WebSite/Pages/Book/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQm9va1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ramses/Desktop/Meta.Books.WebApp/Meta.Books/Meta.Books.WebSite/Pages/Book/List.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQm9va1xMaXN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ramses/Desktop/Meta.Books.WebApp/Meta.Books/Meta.Books.WebSite/Pages/Category/Adm.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2F0ZWdvcnlcQWRtLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ramses/Desktop/Meta.Books.WebApp/Meta.Books/Meta.Books.WebSite/Pages/Category/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2F0ZWdvcnlcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ramses/Desktop/Meta.Books.WebApp/Meta.Books/Meta.Books.WebSite/Pages/Category/List.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2F0ZWdvcnlcTGlzdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ramses/Desktop/Meta.Books.WebApp/Meta.Books/Meta.Books.WebSite/Pages/Comment/Adm.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29tbWVudFxBZG0uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ramses/Desktop/Meta.Books.WebApp/Meta.Books/Meta.Books.WebSite/Pages/Comment/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29tbWVudFxEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ramses/Desktop/Meta.Books.WebApp/Meta.Books/Meta.Books.WebSite/Pages/Comment/List.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29tbWVudFxMaXN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ramses/Desktop/Meta.Books.WebApp/Meta.Books/Meta.Books.WebSite/Pages/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ramses/Desktop/Meta.Books.WebApp/Meta.Books/Meta.Books.WebSite/Pages/Home.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSG9tZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ramses/Desktop/Meta.Books.WebApp/Meta.Books/Meta.Books.WebSite/Pages/Loan/Adm.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTG9hblxBZG0uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ramses/Desktop/Meta.Books.WebApp/Meta.Books/Meta.Books.WebSite/Pages/Loan/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTG9hblxEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ramses/Desktop/Meta.Books.WebApp/Meta.Books/Meta.Books.WebSite/Pages/Loan/List.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTG9hblxMaXN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ramses/Desktop/Meta.Books.WebApp/Meta.Books/Meta.Books.WebSite/Pages/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ramses/Desktop/Meta.Books.WebApp/Meta.Books/Meta.Books.WebSite/Pages/Publisher/Adm.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHVibGlzaGVyXEFkbS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ramses/Desktop/Meta.Books.WebApp/Meta.Books/Meta.Books.WebSite/Pages/Publisher/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHVibGlzaGVyXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ramses/Desktop/Meta.Books.WebApp/Meta.Books/Meta.Books.WebSite/Pages/Publisher/List.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHVibGlzaGVyXExpc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ramses/Desktop/Meta.Books.WebApp/Meta.Books/Meta.Books.WebSite/Pages/Reservation/Adm.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVzZXJ2YXRpb25cQWRtLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ramses/Desktop/Meta.Books.WebApp/Meta.Books/Meta.Books.WebSite/Pages/Reservation/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVzZXJ2YXRpb25cRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ramses/Desktop/Meta.Books.WebApp/Meta.Books/Meta.Books.WebSite/Pages/Reservation/List.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVzZXJ2YXRpb25cTGlzdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ramses/Desktop/Meta.Books.WebApp/Meta.Books/Meta.Books.WebSite/Pages/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ramses/Desktop/Meta.Books.WebApp/Meta.Books/Meta.Books.WebSite/Pages/User/Adm.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVXNlclxBZG0uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ramses/Desktop/Meta.Books.WebApp/Meta.Books/Meta.Books.WebSite/Pages/User/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVXNlclxEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ramses/Desktop/Meta.Books.WebApp/Meta.Books/Meta.Books.WebSite/Pages/User/List.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVXNlclxMaXN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ramses/Desktop/Meta.Books.WebApp/Meta.Books/Meta.Books.WebSite/Pages/User/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVXNlclxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ramses/Desktop/Meta.Books.WebApp/Meta.Books/Meta.Books.WebSite/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ramses/Desktop/Meta.Books.WebApp/Meta.Books/Meta.Books.WebSite/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ramses/Desktop/Meta.Books.WebApp/Meta.Books/Meta.Books.WebSite/Pages/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-sb3obevr4d

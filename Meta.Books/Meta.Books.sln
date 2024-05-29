@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Meta.Books.Core", "Meta.Books.Core\Meta.Books.Core.csproj", "{999803A5-AE54-41A7-85BB-CCF368E0D03F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Meta.Books.WebApi", "Meta.Books.WebApi\Meta.Books.WebApi.csproj", "{6BC70995-9AA2-4BC5-B164-F2CFCBF50DC6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Meta.Books.WebSite", "Meta.Books.WebSite\Meta.Books.WebSite.csproj", "{57FA7A3D-3B22-43D3-BFA8-C546FFB4BEE9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{999803A5-AE54-41A7-85BB-CCF368E0D03F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{999803A5-AE54-41A7-85BB-CCF368E0D03F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{999803A5-AE54-41A7-85BB-CCF368E0D03F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{999803A5-AE54-41A7-85BB-CCF368E0D03F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6BC70995-9AA2-4BC5-B164-F2CFCBF50DC6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6BC70995-9AA2-4BC5-B164-F2CFCBF50DC6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6BC70995-9AA2-4BC5-B164-F2CFCBF50DC6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6BC70995-9AA2-4BC5-B164-F2CFCBF50DC6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{57FA7A3D-3B22-43D3-BFA8-C546FFB4BEE9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57FA7A3D-3B22-43D3-BFA8-C546FFB4BEE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57FA7A3D-3B22-43D3-BFA8-C546FFB4BEE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57FA7A3D-3B22-43D3-BFA8-C546FFB4BEE9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

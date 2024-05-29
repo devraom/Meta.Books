@@ -1,0 +1,48 @@
+@page "{id:int}"
+@model Meta.Books.WebSite.Pages.Loan.Delete
+
+<div class="container">
+    <h2>Delete Loan</h2>
+    <hr />
+
+    <form method="post">
+        <input type="hidden" asp-for="LoanDto.id" />
+        
+        <div class="form-group">
+            <label>Book</label>
+            <input readonly class="form-control" value="@Model.BookTitle" />
+        </div>
+
+        <div class="form-group">
+            <label>User</label>
+            <input readonly class="form-control" value="@Model.UserName" />
+        </div>
+
+        <div class="form-group">
+            <label>Loan Date</label>
+            <input readonly class="form-control" value="@Model.LoanDto.loan_date" />
+        </div>
+
+        <div class="form-group">
+            <label>Return Date</label>
+            <input readonly class="form-control" value="@Model.LoanDto.return_date" />
+        </div>
+
+        @if (Model.Errors.Count > 0)
+        {
+            <div class="alert alert-danger">
+                <ul>
+                    @foreach (var error in Model.Errors)
+                    {
+                        <li>@error</li>
+                    }
+                </ul>
+            </div>
+        }
+
+        <div class="text-right">
+            <button type="submit" class="btn btn-danger">Delete</button>
+            <a asp-page="./List" class="btn btn-secondary">Cancel</a>
+        </div>
+    </form>
+</div>

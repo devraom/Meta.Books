@@ -1,0 +1,47 @@
+@page
+@model Meta.Books.WebSite.Pages.User.ListModel
+
+<div class="container-fluid">
+    <form method="get">
+        <div class="row mb-3">
+            <div class="col-md-8"></div>
+            <div class="col-md-4 text-end">
+                <button id="btnSearch" class="btn btn-primary me-3">Search</button>
+                <a asp-page="/User/Adm" asp-route-id="0" class="btn btn-success">Add New</a>
+            </div>
+        </div>
+    </form>
+
+    <div class="row mb-3">
+        <div class="col-md-12">
+            <h2>Users</h2>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-12">
+            <table class="table">
+                <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Email</th>
+                    <th>Actions</th>
+                </tr>
+                </thead>
+                <tbody>
+                @foreach (var user in Model.Users)
+                {
+                    <tr>
+                        <td>@user.name</td>
+                        <td>@user.email</td>
+                        <td>
+                            <a asp-area="" asp-page="/User/Adm" asp-route-id="@user.id" class="btn btn-primary" role="button">Edit</a>
+                            <a asp-area="" asp-page="/User/Delete" asp-route-id="@user.id" class="btn btn-danger" role="button">Delete</a>
+                        </td>
+                    </tr>
+                }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "FZ6bLEwHfnPyHZmfCkPSrdUBwnefxpskI4pPK0IK9Xo=",
+  "Source": "Meta.Books.WebApi",
+  "BasePath": "_content/Meta.Books.WebApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
